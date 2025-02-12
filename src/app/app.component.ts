@@ -3,11 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <app-home></app-home>
-  <app-latest-vacancies></app-latest-vacancies>
+    <router-outlet></router-outlet>
   `,
   standalone: false,
 })
-export class AppComponent {
-  title = 'hr-system';
-}
+export class AppComponent { }

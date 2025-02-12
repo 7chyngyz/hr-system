@@ -16,7 +16,7 @@ interface Vacancy {
     <h2 class="text-2xl md:text-3xl text-gray-900 font-bold mb-2">Последние вакансии</h2>
     <p class="text-lg text-gray-700 mb-4">Найдите работу, которая соответствует вашим требованиям</p>
     <div class="space-y-4">
-      <div *ngFor="let vacancy of vacancies" class="flex items-center h-[200px] bg-slate-200 p-4 rounded-lg shadow-md">
+      <div *ngFor="let vacancy of vacancies" class="flex items-center h-[200px] bg-gray-100 p-4 rounded-lg shadow-md">
         <img src="{{ vacancy.companyLogo }}" alt="{{ vacancy.company }}" class="w-12 h-12 rounded-full mr-4">
         <div class="flex gap-36">
           <div class="flex flex-col gap-3">
