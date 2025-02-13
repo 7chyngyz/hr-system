@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   <app-home></app-home>
   <app-latest-vacancies></app-latest-vacancies>
   <app-popular-category></app-popular-category>
+  <app-two-cards></app-two-cards>
   `,
 })
 export class HomeSectionsComponent {

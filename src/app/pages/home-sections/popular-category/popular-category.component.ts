@@ -11,9 +11,9 @@ interface Category {
   selector: 'app-popular-category',
   standalone: false,
   template: `
-    <section class="px-4 md:px-16 lg:px-60 py-6">
+    <section class="px-4 md:px-16 lg:px-60 py-6 mt-[70px] mb-[70px]">
       <h2 class="text-2xl md:text-3xl text-gray-900 font-bold mb-4">Популярные категории</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10">
         <div *ngFor="let category of categories" class="bg-white shadow-md rounded-xl p-4 flex items-center gap-4">
           <div [style.backgroundColor]="category.color" class="w-12 h-12 flex items-center justify-center rounded-full">
             <img class="w-6 h-6" [src]="category.logo" alt="{{ category.type }}">

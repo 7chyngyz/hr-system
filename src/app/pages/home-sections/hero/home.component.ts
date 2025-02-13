@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <section class="bg-gradient-to-b from-gray-300 to-white py-[100px]">
       <div class="mx-auto flex flex-col lg:flex-row items-center py-10 px-10 lg:px-60">
-        <div class="lg:w-1/2 text-center lg:text-left space-y-6">
+        <div class="lg:w-1/2 text-start lg:text-left space-y-6">
           <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight uppercase">
             поиск работы по<br>всему кыргызстану
           </h1>

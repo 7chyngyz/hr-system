@@ -9,6 +9,8 @@ import { LatestVacanciesComponent } from './pages/home-sections/latest-vacancies
 import { HeaderComponent } from './components/layout/header/header.component';
 import { HomeSectionsComponent } from './pages/home-sections/home-sections.component';
 import { PopularCategoryComponent } from './pages/home-sections/popular-category/popular-category.component';
+import { TwoCardsComponent } from './pages/home-sections/two-cards/two-cards.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { PopularCategoryComponent } from './pages/home-sections/popular-category
     HeaderComponent,
     HomeSectionsComponent,
     PopularCategoryComponent,
+    TwoCardsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
