@@ -4,13 +4,14 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './components/layout/layout.component';
-import { HomeComponent } from './pages/home-sections/hero/home.component';
-import { LatestVacanciesComponent } from './pages/home-sections/latest-vacancies/latest-vacancies.component';
+import { HomeComponent } from './pages/home-sections/components/hero/home.component';
+import { LatestVacanciesComponent } from './pages/home-sections/components/latest-vacancies/latest-vacancies.component';
 import { HeaderComponent } from './components/layout/header/header.component';
-import { HomeSectionsComponent } from './pages/home-sections/home-sections.component';
-import { PopularCategoryComponent } from './pages/home-sections/popular-category/popular-category.component';
-import { TwoCardsComponent } from './pages/home-sections/two-cards/two-cards.component';
+import { HomeSectionsPageComponent } from './pages/home-sections/home-sections-page.component';
+import { PopularCategoryComponent } from './pages/home-sections/components/popular-category/popular-category.component';
+import { TwoCardsComponent } from './pages/home-sections/components/two-cards/two-cards.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
+import { RegisterPageComponent } from './pages/register/register-page.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +20,11 @@ import { FooterComponent } from './components/layout/footer/footer.component';
     HomeComponent,
     LatestVacanciesComponent,
     HeaderComponent,
-    HomeSectionsComponent,
+    HomeSectionsPageComponent,
     PopularCategoryComponent,
     TwoCardsComponent,
     FooterComponent,
+    RegisterPageComponent,
   ],
   imports: [
     BrowserModule,
